@@ -12,8 +12,6 @@ import com.devsuperior.dslist.dto.GameDto;
 import com.devsuperior.dslist.dto.GameMinDto;
 import com.devsuperior.dslist.services.GameService;
 
-import jakarta.websocket.server.PathParam;
-
 @RestController
 @RequestMapping(value = "/games")
 public class GameController {
